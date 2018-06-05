@@ -1,0 +1,28 @@
+body {
+  background-image: url(../hypnotize.png);
+}
+
+h2 {
+  color: darkcyan;
+}
+
+li {
+  cursor: pointer;
+  color: lightseagreen;
+}
+
+input {
+  border: 1px solid darkgray;
+  border-radius: 2px;
+  height: 24px;
+  width: 225px;
+}
+
+.strike {
+  text-decoration: line-through;
+  background-color: rgba(0, 140, 140, 0.9);
+}
+
+ul {
+  list-style-type: square;
+}

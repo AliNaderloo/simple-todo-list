@@ -1,0 +1,24 @@
+<html>
+
+<head>
+  <title>Learning Vue</title>
+  <link rel="shortcut icon" type="image/png" href="../vuefavicon.png">
+  <link href="./style.css" rel="stylesheet" />
+  <meta charset="utf-8" />
+</head>
+
+<body>
+  <!-- Vue Part -->
+  <div id="app">
+    <h2>{{title}}</h2>
+    <input placeholder="New Todo.." type="text" name="todoTitle" v-model="inputVal" v-on:keyup.enter="submit" />
+    <ul v-for="item in items">
+      <todo-item :item-data="item"></todo-item>
+    </ul>
+  </div>
+  <!-- End Vue Part -->
+  <script type="text/javascript" src="../vue.js"></script>
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
